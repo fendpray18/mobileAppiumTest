@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-17T16:35:36 WIB" name="Suite" finished-at="2021-11-17T16:39:44 WIB" duration-ms="248222">
+    <groups>
+    </groups>
+    <test started-at="2021-11-17T16:35:36 WIB" name="Home Page Login/Data Driven" finished-at="2021-11-17T16:39:44 WIB" duration-ms="248222">
+      <class name="travellin.HomePage">
+        <test-method signature="basePageNavigator(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:travellin.HomePage@74bdc168]" started-at="2021-11-17T16:35:36 WIB" name="basePageNavigator" data-provider="dataProviderLogin" finished-at="2021-11-17T16:38:04 WIB" duration-ms="147811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prayogifendy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iBIggGGB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[activeuser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+        <test-method signature="basePageNavigator(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:travellin.HomePage@74bdc168]" started-at="2021-11-17T16:38:04 WIB" name="basePageNavigator" data-provider="dataProviderLogin" finished-at="2021-11-17T16:39:44 WIB" duration-ms="100287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mnc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deactiveuser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigator -->
+      </class> <!-- travellin.HomePage -->
+    </test> <!-- Home Page Login/Data Driven -->
+  </suite> <!-- Suite -->
+</testng-results>

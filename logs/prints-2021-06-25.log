@@ -1,0 +1,7 @@
+09:26:16.792 [TestNG-tests-2] INFO  resources.base - Success enter purchase Menu
+09:26:21.048 [TestNG-tests-1] INFO  resources.base - Success enter browser
+09:26:26.699 [TestNG-tests-2] INFO  resources.base - Success input Origin-Destin
+09:26:34.547 [TestNG-tests-1] INFO  resources.base - Status login be deactiveuser
+09:26:37.219 [TestNG-tests-2] INFO  resources.base - Success closed
+09:34:24.964 [main] INFO  resources.base - Success enter browser
+09:34:41.916 [main] INFO  resources.base - Status login be activeuser
