@@ -6,7 +6,6 @@ public class Storage {
 	public static String valueProduct = "";
 	public static String valueColor = "";
 	public static int valueQuantity = 0;
-	public static String valuefullName = "";
 	public static String values = "";
 	public static String valueCheckbox = "";
 	public static String valueTotal = "";

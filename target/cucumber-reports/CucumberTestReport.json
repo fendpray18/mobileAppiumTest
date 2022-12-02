@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "User buy the product",
+        "description": "",
+        "id": "transaction-product;user-buy-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10167996200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the list product page",
+            "match": {
+              "location": "TransactionProductScenario.open_the_list_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1021362100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User choose the \"Sauce Lab Back Packs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Lab Back Packs",
+                  "offset": 17
+                }
+              ],
+              "location": "TransactionProductScenario.userChooseThe(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3292787800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate product on detail product page",
+            "match": {
+              "location": "TransactionProductScenario.ValidateProductOnDetailPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6664785000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User input criteria to \"Blue\" and \"2\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue",
+                  "offset": 24
+                },
+                {
+                  "val": "2",
+                  "offset": 35
+                }
+              ],
+              "location": "TransactionProductScenario.UserInputCriteria(String,int)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258111200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tap add cart button",
+            "match": {
+              "location": "TransactionProductScenario.TapAddCartButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8250322400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate product on My Cart Page",
+            "match": {
+              "location": "TransactionProductScenario.ValidateProductOnMyCartPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3649754200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Log in account to proceed payment",
+            "match": {
+              "location": "TransactionProductScenario.LogInAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11821553200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Fill shipping address",
+            "match": {
+              "location": "TransactionProductScenario.FillShippingAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8809711700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Fill account payment",
+            "match": {
+              "location": "TransactionProductScenario.FillAccountPayment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7444403600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate checkout deliver data",
+            "match": {
+              "location": "TransactionProductScenario.ValidateCheckoutDeliver()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144889100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate success buy product",
+            "match": {
+              "location": "TransactionProductScenario.ValidateSuccessBuyProduct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@product"
+          }
+        ]
+      }
+    ],
+    "name": "Transaction product",
+    "description": "",
+    "id": "transaction-product",
+    "keyword": "Feature",
+    "uri": "TransactionProduct.feature"
+  }
+]
