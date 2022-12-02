@@ -60,7 +60,7 @@ public class base {
 
 		// file params using 'properties'
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
+				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\configuration.properties");
 		prop = new Properties();
 		prop.load(fis);
 		

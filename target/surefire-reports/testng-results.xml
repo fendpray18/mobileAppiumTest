@@ -1,98 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="297989" started-at="2021-07-09T10:50:50 ICT" finished-at="2021-07-09T10:55:48 ICT">
+  <suite name="cucumberOptions.TestNGRunner" duration-ms="63892" started-at="2022-12-02T23:34:39 ICT" finished-at="2022-12-02T23:35:43 ICT">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunnerTestNG@4b1c1ea0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="TestNGRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@6b09bb57]" name="feature" class="cucumberOptions.TestNGRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Testing Cucumber use TestRunner" duration-ms="297989" started-at="2021-07-09T10:50:50 ICT" finished-at="2021-07-09T10:55:48 ICT">
-      <class name="cucumberOptions.testRunnerTestNG">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.testRunnerTestNG@4b1c1ea0]" name="setUpClass" is-config="true" duration-ms="1281" started-at="2021-07-09T10:50:50 ICT" finished-at="2021-07-09T10:50:51 ICT">
+    <test name="Command line test" duration-ms="63892" started-at="2022-12-02T23:34:39 ICT" finished-at="2022-12-02T23:35:43 ICT">
+      <class name="cucumberOptions.TestNGRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestNGRunner@6b09bb57]" name="setUpClass" is-config="true" duration-ms="377" started-at="2022-12-02T23:34:39 ICT" finished-at="2022-12-02T23:34:39 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunnerTestNG@4b1c1ea0]" name="runScenario" duration-ms="45340" started-at="2021-07-09T10:50:51 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-09T10:51:36 ICT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@6b09bb57]" name="feature" duration-ms="62853" started-at="2022-12-02T23:34:40 ICT" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-12-02T23:35:42 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Positive test validating login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login into Application]"]]>
+                <![CDATA[Transaction product]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunnerTestNG@4b1c1ea0]" name="runScenario" duration-ms="246311" started-at="2021-07-09T10:51:36 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-09T10:55:43 ICT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Positive test validating login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login into Application]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'PROFILE')]"}
-  (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SPPT2CF', ip: '192.168.43.157', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Fendy\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e65c05b896102c2a0b0e18a9afe276d
-*** Element info: {Using=xpath, value=//a[contains(text(),'PROFILE')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'PROFILE')]"}
-  (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SPPT2CF', ip: '192.168.43.157', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Fendy\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e65c05b896102c2a0b0e18a9afe276d
-*** Element info: {Using=xpath, value=//a[contains(text(),'PROFILE')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pageObjects.LoginPage.getIconProfile(LoginPage.java:41)
-at stepDefinations.stepDefination.verify_that_user_is_successfully_logged_in_knowing_the_icon_profile(stepDefination.java:55)
-at ✽.verify that user is successfully logged in knowing the icon Profile(file:///C:/Users/Fendy/Mavenjava/src/test/java/features/login.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.testRunnerTestNG@4b1c1ea0]" name="tearDownClass" is-config="true" duration-ms="4894" started-at="2021-07-09T10:55:43 ICT" finished-at="2021-07-09T10:55:48 ICT">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGRunner@6b09bb57]" name="tearDownClass" is-config="true" duration-ms="488" started-at="2022-12-02T23:35:42 ICT" finished-at="2022-12-02T23:35:43 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberOptions.testRunnerTestNG -->
-    </test> <!-- Testing Cucumber use TestRunner -->
-  </suite> <!-- Suite -->
+      </class> <!-- cucumberOptions.TestNGRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cucumberOptions.TestNGRunner -->
 </testng-results>

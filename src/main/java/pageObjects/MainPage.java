@@ -23,14 +23,14 @@ public class MainPage {
 		this.driver= driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-	
+
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Products']")
 	private WebElement productsPage;
 	
 	@AndroidFindBy(xpath="//android.widget.TextView") //Sauce Lab Back Packs
 	private List<WebElement> listProducts;
 	
-	public boolean validateMainPage() throws InterruptedException{ 
+	public boolean validateMainPage() {
 		 WebDriverWait wait= new WebDriverWait(driver, 15);
 	     wait.until(ExpectedConditions.visibilityOf(productsPage));
 	     return productsPage.isDisplayed(); 

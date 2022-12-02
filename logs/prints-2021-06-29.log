@@ -1,7 +1,0 @@
-11:25:22.444 [TestNG-tests-2] INFO  resources.base - Success closed
-11:27:09.082 [TestNG-tests-3] INFO  resources.base - Driver is intialized
-11:28:07.962 [TestNG-tests-1] INFO  resources.base - Success enter browser
-11:28:51.870 [TestNG-tests-1] INFO  resources.base - Status login be activeuser
-11:29:37.032 [TestNG-tests-1] INFO  resources.base - Success enter browser
-11:29:40.007 [TestNG-tests-2] INFO  resources.base - Success enter purchase Menu
-11:29:52.954 [TestNG-tests-1] INFO  resources.base - Status login be deactiveuser
