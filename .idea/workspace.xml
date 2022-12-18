@@ -5,91 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703120fa-dae6-4649-993f-d7597916ed6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNGRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/TransactionProductScenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2021-06-16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2021-06-25.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2021-06-29.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataFile/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataFile/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/Listeners.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/testRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNGRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/TransactionProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TransactionProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinations/TransactionProductScenario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataFile/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataFile/Storage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/ExtentReporterNG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/Listeners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cucumberOptions.TestNGRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cucumberOptions.TestNGRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumberOptions.TestNGRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cucumberOptions.TestNGRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumberOptions.TestNGRunner/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cucumberOptions.TestNGRunner/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumberOptions.TestNGRunner/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cucumberOptions.TestNGRunner/Command line test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-cucumberOptions.TestNGRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-cucumberOptions.TestNGRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/cucumberOptions.TestNGRunner/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/testRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinations/TransactionProductScenario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-travellin.HomePage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-travellin.PurchaseOrder.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-travellin.validateTitle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/Default test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/Home Page Login_Data Driven.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/Purchase Order.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/Test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/Testing Cucumber use TestRunner.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/Validate Title.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,15 +79,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Fendy\stockbitTest\mobileAutomationStockbit\src\main\java\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="hooks" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGRunner">
+  <component name="RunManager" selected="TestNG.C:/Users/USER/AutomationProject/mobileAppiumTest/testng.xml">
     <configuration name="testRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomationStockbit" />
       <extension name="coverage">
@@ -151,6 +103,33 @@
       <option name="PACKAGE_NAME" value="cucumberOptions" />
       <option name="MAIN_CLASS_NAME" value="cucumberOptions.testRunner" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/USER/AutomationProject/mobileAppiumTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mobileAppiumTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mobileAppiumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.TestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,6 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/USER/AutomationProject/mobileAppiumTest/testng.xml" />
+        <item itemvalue="TestNG.TestNGRunner (1)" />
         <item itemvalue="TestNG.TestNGRunner" />
         <item itemvalue="JUnit.testRunner" />
       </list>

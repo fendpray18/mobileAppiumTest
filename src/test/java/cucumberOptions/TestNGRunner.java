@@ -39,6 +39,10 @@ public class TestNGRunner {
 		testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
 	}
 
+	/**
+	 * @return returns two dimensional array of {@link CucumberFeatureWrapper} objects.
+	 */
+
 	@DataProvider
 	public Object[][] features() {
 		return testNGCucumberRunner.provideFeatures();

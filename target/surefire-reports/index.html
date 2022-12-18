@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-cucumberOptions_TestNGRunner">
-              <span class="suite-name border-passed">cucumberOptions.TestNGRunner</span>
+              <span class="suite-name border-skipped">cucumberOptions.TestNGRunner</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-cucumberOptions_TestNGRunner" class="hide-methods passed suite-cucumberOptions_TestNGRunner"> (hide)</a> <!-- hide-methods passed suite-cucumberOptions_TestNGRunner -->
-                      <a href="#" panel-name="suite-cucumberOptions_TestNGRunner" class="show-methods passed suite-cucumberOptions_TestNGRunner"> (show)</a> <!-- show-methods passed suite-cucumberOptions_TestNGRunner -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-cucumberOptions_TestNGRunner" class="hide-methods skipped suite-cucumberOptions_TestNGRunner"> (hide)</a> <!-- hide-methods skipped suite-cucumberOptions_TestNGRunner -->
+                      <a href="#" panel-name="suite-cucumberOptions_TestNGRunner" class="show-methods skipped suite-cucumberOptions_TestNGRunner"> (show)</a> <!-- show-methods skipped suite-cucumberOptions_TestNGRunner -->
                     </span>
-                    <div class="method-list-content passed suite-cucumberOptions_TestNGRunner">
+                    <div class="method-list-content skipped suite-cucumberOptions_TestNGRunner">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-cucumberOptions_TestNGRunner" title="cucumberOptions.TestNGRunner" hash-for-method="feature(Transaction product)">feature(Transaction product)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cucumberOptions_TestNGRunner" title="cucumberOptions.TestNGRunner" hash-for-method="feature">feature</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-cucumberOptions_TestNGRunner -->
+                    </div> <!-- method-list-content skipped suite-cucumberOptions_TestNGRunner -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,24 +117,43 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-cucumberOptions_TestNGRunner" class="panel cucumberOptions_TestNGRunner">
-          <div class="suite-cucumberOptions_TestNGRunner-class-passed">
+          <div class="suite-cucumberOptions_TestNGRunner-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">cucumberOptions.TestNGRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="feature(Transaction product)">
-                  </a> <!-- feature(Transaction product) -->
+                  <a name="feature">
+                  </a> <!-- feature -->
                   <span class="method-name">feature</span>
-                  <span class="parameters">(Transaction product)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: gherkin.TagExpression$BadTagException: Bad tag: &quot;&quot;
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: gherkin.TagExpression$BadTagException: Bad tag: &quot;&quot;
+	at gherkin.TagExpression$TagExp.&lt;init&gt;(TagExpression.java:122)
+	at gherkin.TagExpression.add(TagExpression.java:57)
+	at gherkin.TagExpression.&lt;init&gt;(TagExpression.java:17)
+	at gherkin.formatter.TagFilter.&lt;init&gt;(TagFilter.java:14)
+	at gherkin.formatter.FilterFormatter.detectFilter(FilterFormatter.java:64)
+	at gherkin.formatter.FilterFormatter.&lt;init&gt;(FilterFormatter.java:41)
+	at cucumber.runtime.FeatureBuilder.parse(FeatureBuilder.java:126)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:104)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:54)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:34)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:239)
+	at cucumber.api.testng.TestNGCucumberRunner.getFeatures(TestNGCucumberRunner.java:85)
+	at cucumber.api.testng.TestNGCucumberRunner.provideFeatures(TestNGCucumberRunner.java:94)
+	at cucumberOptions.TestNGRunner.features(TestNGRunner.java:44)
+	... 34 more
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-cucumberOptions_TestNGRunner-class-passed -->
+          </div> <!-- suite-cucumberOptions_TestNGRunner-class-skipped -->
         </div> <!-- panel cucumberOptions_TestNGRunner -->
         <div panel-name="test-xml-cucumberOptions_TestNGRunner" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -198,12 +217,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'cucumberOptions.TestNGRunner')
-data.setCell(0, 3, 62853);
+data.setCell(0, 3, 0);
 window.suiteTableData['cucumberOptions_TestNGRunner']= { tableData: data, tableDiv: 'times-div-cucumberOptions_TestNGRunner'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-cucumberOptions_TestNGRunner">
               </div> <!-- times-div-cucumberOptions_TestNGRunner -->
             </div> <!-- times-div -->
@@ -234,13 +253,11 @@ return data;
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">feature(Transaction product)</span>
-                <span class="method-start">513 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">63373 ms</span>
+                <span class="method-start">344 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

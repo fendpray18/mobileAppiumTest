@@ -1,6 +1,6 @@
 Feature: Transaction product 
 
-@product
+@product @Android
 Scenario Outline: User buy the product
 Given Open the list product page
 When User choose the "<product>"
@@ -16,4 +16,4 @@ Then Validate success buy product
 
   Examples:
     |product				|color		|quantity	|
-    |Sauce Lab Back Packs 	|Blue		|2			|
+    |Sauce Lab Back Packs  	|Blue		|2			|

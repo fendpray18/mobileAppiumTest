@@ -9,10 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">cucumberOptions.TestNGRunner</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">63,892</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">391</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">cucumberOptions.TestNGRunner</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">cucumberOptions.TestNGRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1669998880062</td><td rowspan="1">62853</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">cucumberOptions.TestNGRunner</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">cucumberOptions.TestNGRunner</td><td><a href="#m0">tearDownClass</a></td><td rowspan="1">1671147357763</td><td rowspan="1">16</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">cucumberOptions.TestNGRunner</td><td><a href="#m1">feature</a></td><td rowspan="1">1671147357763</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">cucumberOptions.TestNGRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Transaction product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">cucumberOptions.TestNGRunner#tearDownClass</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56)
+	at cucumberOptions.TestNGRunner.tearDownClass(TestNGRunner.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">cucumberOptions.TestNGRunner#feature</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: gherkin.TagExpression$BadTagException: Bad tag: &quot;&quot;
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: gherkin.TagExpression$BadTagException: Bad tag: &quot;&quot;
+	at gherkin.TagExpression$TagExp.&lt;init&gt;(TagExpression.java:122)
+	at gherkin.TagExpression.add(TagExpression.java:57)
+	at gherkin.TagExpression.&lt;init&gt;(TagExpression.java:17)
+	at gherkin.formatter.TagFilter.&lt;init&gt;(TagFilter.java:14)
+	at gherkin.formatter.FilterFormatter.detectFilter(FilterFormatter.java:64)
+	at gherkin.formatter.FilterFormatter.&lt;init&gt;(FilterFormatter.java:41)
+	at cucumber.runtime.FeatureBuilder.parse(FeatureBuilder.java:126)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:104)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:54)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:34)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:239)
+	at cucumber.api.testng.TestNGCucumberRunner.getFeatures(TestNGCucumberRunner.java:85)
+	at cucumber.api.testng.TestNGCucumberRunner.provideFeatures(TestNGCucumberRunner.java:94)
+	at cucumberOptions.TestNGRunner.features(TestNGRunner.java:44)
+	... 34 more
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

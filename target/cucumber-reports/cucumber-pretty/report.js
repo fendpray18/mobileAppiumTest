@@ -17,6 +17,10 @@ formatter.scenarioOutline({
     {
       "line": 3,
       "name": "@product"
+    },
+    {
+      "line": 3,
+      "name": "@Android"
     }
   ]
 });
@@ -92,7 +96,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Sauce Lab Back Packs",
+        "Sauce Lab Back Packs aja",
         "Blue",
         "2"
       ],
@@ -112,6 +116,10 @@ formatter.scenario({
   "tags": [
     {
       "line": 3,
+      "name": "@Android"
+    },
+    {
+      "line": 3,
       "name": "@product"
     }
   ]
@@ -123,7 +131,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "User choose the \"Sauce Lab Back Packs\"",
+  "name": "User choose the \"Sauce Lab Back Packs aja\"",
   "matchedColumns": [
     0
   ],
@@ -182,28 +190,28 @@ formatter.match({
   "location": "TransactionProductScenario.open_the_list_product_page()"
 });
 formatter.result({
-  "duration": 10167996200,
+  "duration": 10050162300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Sauce Lab Back Packs",
+      "val": "Sauce Lab Back Packs aja",
       "offset": 17
     }
   ],
   "location": "TransactionProductScenario.userChooseThe(String)"
 });
 formatter.result({
-  "duration": 1021362100,
-  "status": "passed"
+  "duration": 20514393400,
+  "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MAJOO-498WTNB-X\u0027, ip: \u0027192.168.25.202\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appWaitActivity: com.saucelabs.mydemoapp.and..., appWaitPackage: com.saucelabs.mydemoapp.and..., automationName: uiautomator2, databaseEnabled: false, desired: {appWaitActivity: com.saucelabs.mydemoapp.and..., appWaitPackage: com.saucelabs.mydemoapp.and..., automationName: uiautomator2, deviceName: Android Device, newCommandTimeout: 14, platformName: android}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX1921, deviceName: de0d891a, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: de0d891a, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 2036, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: db0e2ddf-8758-440a-8a67-f9540f203540\n*** Element info: {Using\u003dxpath, value\u003d//android.widget.ImageView[@content-desc\u003d\u0027Sauce Lab Back Packs aja\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\r\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat pageObjects.MainPage.findProductSelected(MainPage.java:44)\r\n\tat stepDefinitions.TransactionProductScenario.userChooseThe(TransactionProductScenario.java:47)\r\n\tat ✽.When User choose the \"Sauce Lab Back Packs aja\"(TransactionProduct.feature:6)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateProductOnDetailPage()"
 });
 formatter.result({
-  "duration": 3292787800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -219,56 +227,48 @@ formatter.match({
   "location": "TransactionProductScenario.UserInputCriteria(String,int)"
 });
 formatter.result({
-  "duration": 6664785000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransactionProductScenario.TapAddCartButton()"
 });
 formatter.result({
-  "duration": 258111200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateProductOnMyCartPage()"
 });
 formatter.result({
-  "duration": 8250322400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransactionProductScenario.LogInAccount()"
 });
 formatter.result({
-  "duration": 3649754200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransactionProductScenario.FillShippingAddress()"
 });
 formatter.result({
-  "duration": 11821553200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransactionProductScenario.FillAccountPayment()"
 });
 formatter.result({
-  "duration": 8809711700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateCheckoutDeliver()"
 });
 formatter.result({
-  "duration": 7444403600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateSuccessBuyProduct()"
 });
 formatter.result({
-  "duration": 1144889100,
-  "status": "passed"
+  "status": "skipped"
 });
 });

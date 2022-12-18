@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestNGRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 64.893 sec
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 1.221 sec <<< FAILURE!
+tearDownClass(cucumberOptions.TestNGRunner)  Time elapsed: 1.018 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56)
+	at cucumberOptions.TestNGRunner.tearDownClass(TestNGRunner.java:50)
+
