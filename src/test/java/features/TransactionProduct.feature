@@ -1,6 +1,6 @@
 Feature: Transaction product 
 
-@product @Android
+@product
 Scenario Outline: User buy the product
 Given Open the list product page
 When User choose the "<product>"

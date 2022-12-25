@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703120fa-dae6-4649-993f-d7597916ed6d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Failures/TestNGRunner.feature - 16-Dec-2022__10_52_24AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Failures/TestNGRunner.feature - 18-Dec-2022__07_10_33AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Failures/TestNGRunner.feature - 18-Dec-2022__07_24_00AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Success/TestNGRunner.feature - 18-Dec-2022__07_12_44AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Success/TestNGRunner.feature - 18-Dec-2022__07_18_30AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Success/TestNGRunner.feature - 18-Dec-2022__07_22_58AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ConfigFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/extent-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/extent-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ScreenshotUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNGRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/TransactionProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TransactionProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ScreenshotUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestNGRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestNGRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +68,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Fendy\stockbitTest\mobileAutomationStockbit\src\main\java\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\AutomationProject\mobileAppiumTestNG\src\main\java\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utils" />
@@ -59,17 +84,12 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/USER/AutomationProject/mobileAppiumTest/testng.xml">
-    <configuration name="testRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mobileAutomationStockbit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumberOptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cucumberOptions" />
-      <option name="MAIN_CLASS_NAME" value="cucumberOptions.testRunner" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="C:/Users/USER/AutomationProject/mobileAppiumTestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mobileAppiumTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +106,23 @@
     </configuration>
     <configuration name="TestNGRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAppiumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.TestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunner (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mobileAppiumTestNG" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumberOptions.*" />
@@ -121,9 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/USER/AutomationProject/mobileAppiumTest/testng.xml" />
+        <item itemvalue="TestNG.TestNGRunner (2)" />
+        <item itemvalue="TestNG.C:/Users/USER/AutomationProject/mobileAppiumTestNG/testng.xml" />
         <item itemvalue="TestNG.TestNGRunner (1)" />
         <item itemvalue="TestNG.TestNGRunner" />
-        <item itemvalue="JUnit.testRunner" />
       </list>
     </recent_temporary>
   </component>

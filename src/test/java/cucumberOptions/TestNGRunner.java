@@ -8,7 +8,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.cucumber.listener.Reporter;
-import resources.ConfigFileReader;
+import config.ConfigFileReader;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
@@ -52,6 +52,8 @@ public class TestNGRunner {
 	public void tearDownClass() throws Exception {
 		//driver.quit();
 		Reporter.loadXMLConfig(new File(ConfigFileReader.getConfigPropertyVal("reportConfigPath")));
+		Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
+		Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
 		testNGCucumberRunner.finish();
 
 	}

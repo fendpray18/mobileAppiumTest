@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mobileAutomationStockbit" />
+        <module name="mobileAppiumTestNG" />
         <module name="mobileAppiumTest" />
       </profile>
     </annotationProcessing>
