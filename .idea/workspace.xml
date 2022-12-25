@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703120fa-dae6-4649-993f-d7597916ed6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Failures/TestNGRunner.feature - 16-Dec-2022__10_52_24AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Failures/TestNGRunner.feature - 18-Dec-2022__07_10_33AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Failures/TestNGRunner.feature - 18-Dec-2022__07_24_00AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Success/TestNGRunner.feature - 18-Dec-2022__07_12_44AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Success/TestNGRunner.feature - 18-Dec-2022__07_18_30AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Success/TestNGRunner.feature - 18-Dec-2022__07_22_58AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ConfigFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/extent-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/extent-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/ConfigFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/extent-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/extent.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/ScreenshotUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNGRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/TransactionProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TransactionProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ScreenshotUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestNGRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestNGRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

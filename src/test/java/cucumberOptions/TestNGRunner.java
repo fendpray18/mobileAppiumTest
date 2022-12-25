@@ -22,7 +22,6 @@ import cucumber.api.testng.TestNGCucumberRunner;
 				"pretty",
 				"html:target/cucumber-reports/cucumber-pretty",
 				"json:target/cucumber-reports/CucumberTestReport.json",
-				"rerun:target/cucumber-reports/rerun.txt"
 		},plugin = {"json:target/cucumber-reports/CucumberTestReport.json",
 		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"})
 

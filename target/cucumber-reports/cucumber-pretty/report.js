@@ -103,7 +103,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2960000,
+  "duration": 3153200,
   "status": "passed"
 });
 formatter.scenario({
@@ -186,7 +186,7 @@ formatter.match({
   "location": "TransactionProductScenario.open_the_list_product_page()"
 });
 formatter.result({
-  "duration": 8749220800,
+  "duration": 8657420300,
   "status": "passed"
 });
 formatter.match({
@@ -199,14 +199,14 @@ formatter.match({
   "location": "TransactionProductScenario.userChooseThe(String)"
 });
 formatter.result({
-  "duration": 887690400,
+  "duration": 989312700,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateProductOnDetailPage()"
 });
 formatter.result({
-  "duration": 3799032400,
+  "duration": 3208204000,
   "status": "passed"
 });
 formatter.match({
@@ -223,60 +223,60 @@ formatter.match({
   "location": "TransactionProductScenario.UserInputCriteria(String,int)"
 });
 formatter.result({
-  "duration": 5645382200,
+  "duration": 5880085600,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.TapAddCartButton()"
 });
 formatter.result({
-  "duration": 934055200,
+  "duration": 147944500,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateProductOnMyCartPage()"
 });
 formatter.result({
-  "duration": 8497766000,
+  "duration": 8460655900,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.LogInAccount()"
 });
 formatter.result({
-  "duration": 3393468500,
+  "duration": 3304502200,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.FillShippingAddress()"
 });
 formatter.result({
-  "duration": 11158226200,
+  "duration": 12090325900,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.FillAccountPayment()"
 });
 formatter.result({
-  "duration": 5635143900,
+  "duration": 7740734900,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateCheckoutDeliver()"
 });
 formatter.result({
-  "duration": 8366540800,
+  "duration": 8285989900,
   "status": "passed"
 });
 formatter.match({
   "location": "TransactionProductScenario.ValidateSuccessBuyProduct()"
 });
 formatter.result({
-  "duration": 1124820700,
+  "duration": 1105099800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 101500,
+  "duration": 91500,
   "status": "passed"
 });
 });
